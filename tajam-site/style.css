@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Hind, sans-serif;
+}
+
+
+
+/* components start */
+a{
+    text-decoration: none;
+}
+.btn{
+    outline: none;
+    border: none;
+}
+.container{
+    padding: 100px 0;
+    width: 1170px;
+    margin: 0 auto;
+}
+.margin_wrapper{
+    margin: 0 0 40px;
+}
+.mrL{
+    margin-left: 3px;
+}
+.mrB{
+    margin: 0 3px;
+}
+.mB{
+    margin-bottom: 0 3px;
+}
+
+
+/* components end */
+
+
+
+.header{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    transition: all .4s;
+}
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_nav{
+    width: 100%;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu li{
+    list-style: none;
+    padding: 0 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.menu_item{
+    color:white;
+}
+.home{
+    color: #00E0D0;
+}
+.header_title{
+    color: #00E0D0;
+    font-weight: lighter;
+    margin: 0 0 0 5px;
+}
+.header_logo{
+    margin: 15px 0 0 240px;
+}
+.section_content{
+    padding: 190px 0 170px;
+    text-align: center;
+    background-image: url('img/PUT\ YOUR\ IMAGE\ HERE.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.section_content::before{
+    content: '';
+    background-color: rgba(51, 0, 102, .85);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section_wrapper{
+    margin: 0 auto;
+    position: relative;
+    max-width: 1140px;
+}
+.section_title{
+    font-size: 35px;
+    color: white;
+    margin: 45px 0 20px;
+    font-weight: 600;
+    font-family: abril fatface;
+}
+.section_text{
+    padding: 20px 170px 0 170px;
+    line-height: 25px;
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+}
+.border{
+    border-top: 1.5px solid #00E0D0;
+}
+.btn_header{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
